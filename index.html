@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Vonnay Social Network</title>
+    <link rel="stylesheet" href="css\bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="all.css">
+</head>
+
+<body>
+        <header>
+            <div class="container">
+                <img src="img/logo.png" class="logo" alt="">
+                <div class="iyere mr-3">
+                    <form class="form-inline">
+                        <div class="form-group">
+                            <label></label>
+                            <input type="email" class="form-control" placeholder="Enter email">
+                        </div>
+                        <div class="form-group">
+                            <label></label>
+                            <input type="password" class="form-control" placeholder="Password">
+                        </div>              
+                        <button type="submit" class="btn btn-primary" id="button">Sign In</button>
+                    </form>
+                    <div class="form-group form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label">Remember me</label>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                    <li class="active"><a class="nav-item nav-link" href="index,html">Home</a></li>
+                    <li><a class="nav-item nav-link" href="members.html">Members</a></li>
+                    <li><a class="nav-item nav-link" href="groups.html">Groups</a></li>
+                    <li><a class="nav-item nav-link" href="photos.html">Photos</a></li>
+                    <li><a class="nav-item nav-link" href="profile.html">Profile</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        
+        <section>
+        <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="card-title">Wall</h3>
+                    </div>
+                    <div class="card-body">
+                        <form>
+                            <div class="form-group">
+                                <textarea class="form-control" placeholder="Write on the wall"></textarea>
+                            </div>
+
+                            <button type="submit" class="btn btn-light">Submit</button>
+                            <div class="float-right">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-light"><i class="fas fa-pencil-alt"></i> Text</button>
+                                        <button type="button" class="btn btn-light"><i class="far fa-file-image"></i> Image</button>
+                                        <button type="button" class="btn btn-light"><i class="far fa-file-video"></i> Video</button>
+                                    </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="card post">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-sm-2">
+                                <a class="img-thumbnail" href="profile.html"><img class="img-fluid" src="img/user.png"><div class="text-center">DevUser1</div></a>
+                                <div class="likes text-center">7 Likes</div>
+                            </div> <!--col-sm-2 end-->
+                            <div class="col-sm-10">
+                                <div class="bubble">
+                                    <div class="pointer">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent semper vitae arcu ac hendrerit. Mauris nulla turpis, convallis et mi sit amet, eleifend malesuada felis. Curabitur leo nisl, bibendum vel ornare et, convallis a enim. Aliquam sagittis magna ut felis rhoncus, vitae hendrerit odio tincidunt.
+                                    </div>
+                                    <div class="pointer-border">
+
+                                    </div>
+                                </div><!--bubble end-->
+                                <p class="post-actions">
+                                    <a href="">Comment</a> - <a href="">Likes</a> - <a href="">Shares</a> 
+                                </p>
+                                <div class="comment-form">
+                                    <form class="form-inline">
+                                        <div class="form-group mb-2">
+                                            <input type="text" class="form-control" placeholder="Enter Comment">
+                                        </div>
+                                        <button type="submit" class="btn btn-primary mb-2">Add</button>
+                                    </form>
+                                </div> <!-- comment form-->
+                                <div class="clearfix"></div>
+                                <div class="comments">
+                                    <div class="comment">
+                                        <a class="comment-avatar float-left" href=""><img class="img-fluid" src="img/user.png" alt=""></a>
+                                        <div class="comment-text">
+                                            <p>Proin quis nisi ut sem ornare sollicitudin eget et metus.</p>
+                                        </div>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </div>
+                                <div class="comments">
+                                    <div class="comment">
+                                        <a class="comment-avatar float-left" href=""><img class="img-fluid" src="img/user.png" alt=""></a>
+                                        <div class="comment-text">
+                                            <p>Proin quis nisi ut sem ornare sollicitudin eget et metus.</p>
+                                        </div>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </div>
+                                
+                    </div>
+                </div>
+                </div>
+                </div>
+
+                <div class="card post">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-sm-2">
+                                    <a class="img-thumbnail" href="profile.html"><img class="img-fluid" src="img/user.png"><div class="text-center">DevUser2</div></a>
+                                    <div class="likes text-center">5 Likes</div>
+                                </div> <!--col-sm-2 end-->
+                                <div class="col-sm-10">
+                                    <div class="bubble">
+                                        <div class="pointer">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur leo nisl, bibendum vel ornare et, convallis a enim. Aliquam sagittis magna ut felis rhoncus, vitae hendrerit odio tincidunt.
+                                        </div>
+                                        <div class="pointer-border">
+    
+                                        </div>
+                                    </div><!--bubble end-->
+                                    <p class="post-actions">
+                                        <a href="">Comment</a> - <a href="">Likes</a> - <a href="">Shares</a> 
+                                    </p>
+                                    <div class="comment-form">
+                                        <form class="form-inline">
+                                            <div class="form-group mb-2">
+                                                <input type="text" class="form-control" placeholder="Enter Comment">
+                                            </div>
+                                            <button type="submit" class="btn btn-primary mb-2">Add</button>
+                                        </form>
+                                    </div> <!-- comment form-->
+                                    <div class="clearfix"></div>
+                                    <div class="comments">
+                                        <div class="comment">
+                                            <a class="comment-avatar float-left" href=""><img class="img-fluid" src="img/user.png" alt=""></a>
+                                            <div class="comment-text">
+                                                <p>Proin quis nisi ut sem ornare sollicitudin eget et metus.</p>
+                                            </div>
+                                        </div>
+                                        <div class="clearfix"></div>
+                                    </div>
+                                    </div>
+                                    </div>
+                   </div>
+               </div>
+               <div class="card post">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-sm-2">
+                                        <a class="img-thumbnail" href="profile.html"><img class="img-fluid" src="img/user.png"><div class="text-center">DevUser3</div></a>
+                                        <div class="likes text-center">3 Likes</div>
+                                    </div> <!--col-sm-2 end-->
+                                    <div class="col-sm-10">
+                                        <div class="bubble">
+                                            <div class="pointer">
+                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent semper vitae arcu ac hendrerit. Mauris nulla turpis, convallis et mi sit amet, eleifend malesuada felis. 
+                                            </div>
+                                            <div class="pointer-border">
+        
+                                            </div>
+                                        </div><!--bubble end-->
+                                        <p class="post-actions">
+                                            <a href="">Comment</a> - <a href="">Likes</a> - <a href="">Shares</a> 
+                                        </p>
+                                        <div class="comment-form">
+                                            <form class="form-inline">
+                                                <div class="form-group mb-2">
+                                                    <input type="text" class="form-control" placeholder="Enter Comment">
+                                                </div>
+                                                <button type="submit" class="btn btn-primary mb-2">Add</button>
+                                            </form>
+                                        </div> <!-- comment form-->
+                                        <div class="clearfix"></div>
+                                       
+                                        <div class="comments">
+                                            <div class="comment">
+                                                <a class="comment-avatar float-left" href=""><img class="img-fluid" src="img/user.png" alt=""></a>
+                                                <div class="comment-text">
+                                                    <p>Proin quis nisi ut sem ornare sollicitudin eget et metus.</p>
+                                                </div>
+                                            </div>
+                                            <div class="clearfix"></div>
+                                        </div>
+                                     </div>
+                                     </div>   
+                            </div>
+                        </div>
+            </div><!-- col-md-8 end-->
+            <div class="col-md-4">
+                    <div class="card friends">
+                        <div class="card-header">
+                            <h3 class="card-title">Friends</h3>
+                        </div>
+                        <div class="card-body">
+                           <ul>
+                            <li><a class="img-thumbnail" href="profile.html"><img class="img-fluid" src="img/user.png" alt=""></a></li>
+                            <li><a class="img-thumbnail" href="profile.html"><img class="img-fluid" src="img/user.png" alt=""></a></li>
+                            <li><a class="img-thumbnail" href="profile.html"><img class="img-fluid" src="img/user.png" alt=""></a></li>
+                            <li><a class="img-thumbnail" href="profile.html"><img class="img-fluid" src="img/user.png" alt=""></a></li>
+                            <li><a class="img-thumbnail" href="profile.html"><img class="img-fluid" src="img/user.png" alt=""></a></li>
+                            <li><a class="img-thumbnail" href="profile.html"><img class="img-fluid" src="img/user.png" alt=""></a></li>
+                            <li><a class="img-thumbnail" href="profile.html"><img class="img-fluid" src="img/user.png" alt=""></a></li>
+                            <li><a class="img-thumbnail" href="profile.html"><img class="img-fluid" src="img/user.png" alt=""></a></li>
+                            <li><a class="img-thumbnail" href="profile.html"><img class="img-fluid" src="img/user.png" alt=""></a></li>
+                            <li><a class="img-thumbnail" href="profile.html"><img class="img-fluid" src="img/user.png" alt=""></a></li>
+                            <li><a class="img-thumbnail" href="profile.html"><img class="img-fluid" src="img/user.png" alt=""></a></li>
+                            <li><a class="img-thumbnail" href="profile.html"><img class="img-fluid" src="img/user.png" alt=""></a></li>
+                            <li><a class="img-thumbnail" href="profile.html"><img class="img-fluid" src="img/user.png" alt=""></a></li>
+                            <li><a class="img-thumbnail" href="profile.html"><img class="img-fluid" src="img/user.png" alt=""></a></li>
+                           </ul>
+                           <div class="clearfix"></div>
+                           <a class="btn btn-primary" href="">View All Friends</a>
+                        </div>
+                    </div>
+                    <div class="card groups">
+                            <div class="card-header">
+                                <h3 class="card-title">Latest Groups</h3>
+                            </div>
+                            <div class="card-body">
+                                <div class="group-item">
+                                    <img src="img/group.png" alt="">
+                                    <h4><a href="#">Sample Group One</a></h4>
+                                    <p>This is a Vonnay social network sample group</p>
+                                </div>
+                                <div class="group-item">
+                                    <img src="img/group.png" alt="">
+                                    <h4><a href="#">Sample Group Two</a></h4>
+                                    <p>This is a Vonnay social network sample group</p>
+                                </div>
+                                <div class="group-item">
+                                    <img src="img/group.png" alt="">
+                                    <h4><a href="#">Sample Group Three</a></h4>
+                                    <p>This is a Vonnay social network sample group</p>
+                                </div>
+                                <div class="clearfix"></div>
+                                <a class="btn btn-primary" href="">View All Groups</a>
+                            </div>
+                    </div>
+            </div>
+        </div>
+       
+   </section> 
+    
+   <footer>
+       <div class="container">
+        <p>Vonnay Copyright &copy; 2019, All Rights Reserved</p>
+       </div>
+   </footer>
+
+   <script src="js/jquery-3.3.1.slim.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/popper.min.js"></script>
+</body>
+</html>
